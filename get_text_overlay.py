@@ -15,9 +15,6 @@
 #####################
 import cv2
 import numpy as np
-from skimage import data
-import matplotlib.pyplot as plt
-from skimage import io
 
 def getTextOverlay(input_image):
     output = np.zeros(input_image.shape, dtype=np.uint8)
